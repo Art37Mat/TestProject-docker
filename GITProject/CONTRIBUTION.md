@@ -1,2 +1,1 @@
-Bag конфликт
-Первое описание
+On development stage
