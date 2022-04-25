@@ -1,0 +1,31 @@
+version: ''
+
+services:
+
+  php:
+    build: ./php
+    ports:
+      - 3758:80
+    container_name: php
+
+
+  db:
+    image: mysql
+    restart: on-failure
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: 123
+      MYSQL_DATABASE: testdb
+    depends_on:
+      - php
+
+
+
+  phpmyadmin:
+    image: phpmyadmin
+    restart: on-failure
+    ports:
+      - 3757:80
+    environment:
+      - PMA_ARBITRARY=1
+    
