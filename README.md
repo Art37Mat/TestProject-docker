@@ -6,11 +6,11 @@ __docker__
 
 **images**
 
--FROM
--WORKDIR
-  -RUN
-  -COPY
-    -EXPOSE
+1. FROM
+2. WORKDIR
+  1. RUN
+  2. COPY
+  1. EXPOSE
 
 
 ##The project required these files
