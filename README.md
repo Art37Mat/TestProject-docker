@@ -9,8 +9,8 @@ __docker__
 
 **images**
 
- 1. FROM
- 2. WORKDIR
+1. FROM
+2. WORKDIR
    1. RUN
    2. COPY
    1. EXPOSE
