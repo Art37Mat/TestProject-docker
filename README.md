@@ -20,7 +20,7 @@ __docker__
 
 first | second | third
 ---|---|---
-*git add*|_git commit_|***git init
+*git add*|_git commit_|git init
 
 
 ```
