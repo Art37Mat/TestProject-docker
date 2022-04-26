@@ -6,7 +6,11 @@
 used search engine [link](https://www.google.ru)
 
 ```
-[link to README.md](./README.md)
+[Markdown information][1]
+[link to README.md](.//README.md)
+
+
+[1]:(https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ```
 Version 0.01
