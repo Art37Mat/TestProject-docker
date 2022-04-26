@@ -8,7 +8,7 @@ used search engine [link](https://www.google.ru)
 [Markdown][1]
 
 
-[link to README.md](.README.md)
+[link to README.md](..README.md)
 
 
 [1]: (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
